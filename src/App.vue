@@ -1,13 +1,13 @@
 <template>
   <div class="section">
-          <upload />
+          <awsML />
   </div>
 </template>
 
 <script>
-import upload from './upload.vue'
+import awsML from './awsML.vue'
 export default {
   name: 'App',
-  components: {upload}
+  components: {awsML}
 }
 </script>
